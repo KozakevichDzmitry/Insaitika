@@ -1,0 +1,92 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    color: #333;
+    background-color: #ffffff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 0.938rem;
+}
+.header{
+    background-color: #1e1f26;
+    padding: 0.938em 0;
+    margin-bottom: 3.1em;
+}
+
+.main{
+    margin-bottom: 3.1em;
+}
+
+
+.footer{
+    background-color: #1e1f26;
+    padding: 0.938rem 0;
+    color: #fff;
+}
+.footer__copyright{
+   text-align: center;
+    font-size: 0.875rem;
+}
+#cancel-comment-reply-link{
+    color: #228B22FF;
+    text-decoration: underline dotted;
+    transition: all .3s linear;
+ }
+
+#cancel-comment-reply-link:hover{
+    color: #aa0000;
+    text-decoration: line-through;
+}
+
+.comment-form-comment label{
+    display: none;
+}
+
+.submit{
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.08);
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .875rem;
+    padding: .5em 1em;
+    margin: 1.25em auto;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+    transition: background-color 0.1s linear;
+}
+.submit {
+    background-color: rgb( 43, 153, 91 );
+    border: 1px solid rgb( 33, 126, 74 );
+}
+
+.submit:hover {
+    background-color: rgb( 75, 183, 141 );
+}
